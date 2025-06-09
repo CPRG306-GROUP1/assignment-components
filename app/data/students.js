@@ -1,33 +1,33 @@
 const students = [
     {
-        "id": "778912653",
+        "id": "1",
         "name": "Josh Hanigan",
         "dob": "January 15, 2003",
-        "current-grade": "12",
+        "currentGrade": "12",
     },
     {
-        "id": "774783435",
+        "id": "2",
         "name": "Ashley Tisdale",
         "dob": "August 11, 2004",
-        "current-grade": "11",
+        "currentGrade": "11",
     },
     {
-        "id": "779354713",
+        "id": "3",
         "name": "Lewis Lee",
         "dob": "September 27, 2002",
-        "current-grade": "12",
+        "currentGrade": "12",
     },
     {
-        "id": "777843562",
+        "id": "4",
         "name": "Ashton Hall",
         "dob": "October 17, 2005",
-        "current-grade": "10",
+        "currentGrade": "10",
     },
     {
-        "id": "779787334",
+        "id": "5",
         "name": "Jennifer Coolidge",
         "dob": "May 4, 2004",
-        "current-grade": "11",
+        "currentGrade": "11",
     },
 ];
 
