@@ -1,0 +1,10 @@
+
+[
+  {
+    "id": 1,
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "dob": "2006-01-15",
+    "grade": "10"
+  }
+]
