@@ -12,7 +12,7 @@ export default function Home() {
           Student List
         </h2>
         {students.map((student) => (
-          <StudentCard key={students.id} studentData={student} />
+          <StudentCard key={student.id} studentData={student} />
         ))}
       </div>
     </div>
