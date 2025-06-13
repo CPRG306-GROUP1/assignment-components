@@ -1,16 +1,17 @@
-import React from "react";
-
-const Navbar = () => {
-    return (
-        <div className="bg-slate-900 w-full flex mx-auto gap-8 py-6">
-            <button className="bg-slate-200 mx-auto rounded-xl p-2 hover:cursor-pointer">
-                List Of Students
-            </button>
-            <button className="bg-slate-200 mx-auto rounded-xl p-2 hover:cursor-pointer">
-                Modify list of students
-            </button>
-        </div>
-    );
+'use client';
+import React from 'react';
+ 
+const Footer = () => {
+     console.log(" Footer component loaded");
+  return (
+    <footer className="bg-gray-800 text-white py-4 text-center">
+      <p className="text-sm">
+        © {new Date().getFullYear()} New Generation High School. All rights reserved.
+      </p>
+      <p className="text-xs">123 Learning Lane, Calgary, AB</p>
+    </footer>
+  );
 };
-
-export default Navbar;
+ 
+export default Footer;
+ 
