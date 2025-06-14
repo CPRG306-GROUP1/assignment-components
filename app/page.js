@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "./components/Navbar";
 import StudentCard from "./components/StudentCard";
 import students from "./data/students";
+import AddStudentForm from "./components/AddStudentForm";
 
 export default function Home() {
   return (
@@ -14,6 +15,13 @@ export default function Home() {
         {students.map((student) => (
           <StudentCard key={student.id} studentData={student} />
         ))}
+      </div>
+
+      <div className="font-semibold mb-5 py-5 text-center w-full mx-auto bg-slate-400">
+        <h2 className="text-4xl font-semibold mb-5 py-5 text-center w-full mx-auto bg-blue-100">
+          Add New Student
+        </h2>
+        <AddStudentForm />
       </div>
     </div>
   );
