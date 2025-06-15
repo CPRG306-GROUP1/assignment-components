@@ -38,7 +38,7 @@ const AddStudentForm = () => {
             type="text"
             id="firstName"
             name="firstName"
-            className="mt-1 p-2 w-full border-3 rounded-2xl border-white text-lg"
+            className="mt-1 p-2 w-full border-1 rounded-2xl border-gray-900 text-lg"
             value={formData.firstName}
             onChange={handleInputChange}
             required
@@ -56,7 +56,7 @@ const AddStudentForm = () => {
             type="text"
             id="lastName"
             name="lastName"
-            className="mt-1 p-2 w-full border-3 rounded-2xl border-white text-lg"
+            className="mt-1 p-2 w-full border-1 rounded-2xl border-gray-900 text-lg"
             value={formData.lastName}
             onChange={handleInputChange}
             required
@@ -74,7 +74,7 @@ const AddStudentForm = () => {
             type="date"
             id="dob"
             name="dob"
-            className="mt-1 p-2 w-full border-3 rounded-2xl border-white text-lg"
+            className="mt-1 p-2 w-full border-1 rounded-2xl border-gray-900 text-lg"
             value={formData.dob}
             onChange={handleInputChange}
             required
@@ -92,7 +92,7 @@ const AddStudentForm = () => {
             type="number"
             id="currentGrade"
             name="currentGrade"
-            className="mt-1 p-2 w-full border-3 rounded-2xl border-white text-lg"
+            className="mt-1 p-2 w-full border-1 rounded-2xl border-gray-900 text-lg"
             value={formData.currentGrade}
             onChange={handleInputChange}
             required
