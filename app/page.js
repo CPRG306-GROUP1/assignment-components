@@ -7,13 +7,11 @@ import students from "./data/students";
 import AddStudentForm from "./components/AddStudentForm";
 
 export default function Home() {
-
   const [activeTab, setActiveTab] = useState("studentList");
 
   return (
-    <div className="flex flex-col min-w-full bg-slate-400">
-      <Navbar 
-        setActiveTab={setActiveTab}/>
+    <div className="flex flex-col min-w-full bg-slate-400 min-h-screen">
+      <Navbar setActiveTab={setActiveTab} />
 
       {activeTab === "studentList" && (
         <div>
